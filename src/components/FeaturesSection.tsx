@@ -3,33 +3,33 @@ import { Zap, Layers, Palette, Rocket, Shield, Code2 } from "lucide-react";
 const features = [
   {
     icon: Zap,
-    title: "Setup em 60 segundos",
-    desc: "Clone, instale e tá no ar. Sem configuração chata, sem boilerplate, sem dor.",
+    title: "Lightning fast setup",
+    desc: "Clone, install and you're live. No tedious configuration, no boilerplate, no headaches.",
   },
   {
     icon: Layers,
-    title: "Componentes premium",
-    desc: "+80 componentes refinados, animados e prontos para produção. Inspirados nas melhores SaaS.",
+    title: "Premium components",
+    desc: "80+ refined, animated, production-ready components inspired by the best modern apps.",
   },
   {
     icon: Palette,
-    title: "Design system completo",
-    desc: "Tokens semânticos, dark/light, gradientes, sombras e tipografia já calibrados.",
+    title: "Complete design system",
+    desc: "Semantic tokens, dark/light modes, gradients, shadows and typography already calibrated.",
   },
   {
     icon: Rocket,
-    title: "Stack moderna",
-    desc: "React, Vite, Tailwind, TypeScript e Shadcn. O combo que escala de MVP a produto.",
+    title: "Modern stack",
+    desc: "React, Vite, Tailwind, TypeScript and Shadcn. The combo that scales from MVP to product.",
   },
   {
     icon: Shield,
-    title: "Auth + Pagamentos",
-    desc: "Templates com login, dashboard e Stripe configurados. Receba dinheiro no primeiro dia.",
+    title: "Auth & payments",
+    desc: "Templates ship with login, dashboard and Stripe configured. Start earning from day one.",
   },
   {
     icon: Code2,
-    title: "Código limpo",
-    desc: "Componentes pequenos, focados e tipados. Fácil de ler, fácil de estender.",
+    title: "Clean code",
+    desc: "Small, focused and typed components. Easy to read, easy to extend.",
   },
 ];
 
@@ -38,13 +38,13 @@ export const FeaturesSection = () => {
     <section id="features" className="container relative py-24 md:py-32">
       <div className="mx-auto max-w-2xl text-center">
         <span className="inline-block rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary-glow">
-          Tudo no kit
+          Everything included
         </span>
         <h2 className="mt-4 font-display text-4xl font-bold leading-tight md:text-5xl">
-          Construído para <span className="text-gradient-primary">vibe-coders</span> que querem velocidade sem perder o gosto.
+          Built for <span className="text-gradient-primary">creators</span> who want speed without losing taste.
         </h2>
         <p className="mt-4 text-lg text-muted-foreground">
-          Cada template é uma base completa. Você só adiciona sua ideia em cima.
+          Each template is a complete foundation. You just add your idea on top.
         </p>
       </div>
 

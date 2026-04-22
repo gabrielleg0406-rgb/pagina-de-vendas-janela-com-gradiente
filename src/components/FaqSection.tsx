@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    q: "O que é o VibeKit?",
-    a: "É uma coleção premium de templates e componentes para devs que querem lançar produtos com cara de SaaS profissional, sem perder semanas configurando o básico.",
+    q: "What is this product?",
+    a: "It's a premium collection of templates and components for builders who want to ship products with a professional SaaS feel, without spending weeks on the basics.",
   },
   {
-    q: "Preciso saber programar?",
-    a: "Conhecimento básico de React e Tailwind ajuda. Mas como tudo é modular, dá pra adaptar prompts e gerar variações em qualquer ferramenta de vibecoding.",
+    q: "Do I need to know how to code?",
+    a: "Basic React and Tailwind knowledge helps. But since everything is modular, you can adapt and generate variations using any modern AI tool.",
   },
   {
-    q: "Como recebo o acesso?",
-    a: "Imediatamente após a compra você recebe acesso ao repositório privado, à comunidade no Discord e a todas as atualizações futuras.",
+    q: "How do I get access?",
+    a: "Right after purchase you get access to the private repository, the community and all future updates.",
   },
   {
-    q: "Posso usar em projetos comerciais?",
-    a: "Sim. A licença permite uso em projetos pessoais e comerciais ilimitados. Você só não pode revender o kit.",
+    q: "Can I use it for commercial projects?",
+    a: "Yes. The license allows unlimited personal and commercial use. The only restriction is that you can't resell the kit itself.",
   },
   {
-    q: "E se eu não gostar?",
-    a: "Garantia incondicional de 7 dias. Se não amar, devolvemos 100% do valor — sem perguntas.",
+    q: "What if I don't like it?",
+    a: "Unconditional 7-day guarantee. If you don't love it, we'll refund 100% — no questions asked.",
   },
   {
-    q: "O preço de R$97 é fixo?",
-    a: "Não. Esse é o preço de lançamento (de R$297). Conforme novos templates são adicionados, o valor sobe.",
+    q: "Is the $97 price fixed?",
+    a: "No. This is the launch price (down from $297). As new templates are added, the price will go up.",
   },
 ];
 
@@ -41,7 +41,7 @@ export const FaqSection = () => {
             FAQ
           </span>
           <h2 className="mt-4 font-display text-4xl font-bold leading-tight md:text-5xl">
-            Perguntas <span className="text-gradient-primary">frequentes</span>
+            Frequently asked <span className="text-gradient-primary">questions</span>
           </h2>
         </div>
 
