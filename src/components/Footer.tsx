@@ -8,15 +8,15 @@ export const Footer = () => {
           <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-primary">
             <Code2 className="h-3.5 w-3.5 text-primary-foreground" />
           </div>
-          VibeKit
+          Acme
         </div>
         <p className="text-sm text-muted-foreground">
-          © {new Date().getFullYear()} VibeKit · Built for Vibecoders ⚡
+          © {new Date().getFullYear()} Acme Inc. All rights reserved.
         </p>
         <div className="flex gap-6 text-sm text-muted-foreground">
-          <a href="#" className="hover:text-foreground transition-colors">Termos</a>
-          <a href="#" className="hover:text-foreground transition-colors">Privacidade</a>
-          <a href="#" className="hover:text-foreground transition-colors">Contato</a>
+          <a href="#" className="hover:text-foreground transition-colors">Terms</a>
+          <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
+          <a href="#" className="hover:text-foreground transition-colors">Contact</a>
         </div>
       </div>
     </footer>

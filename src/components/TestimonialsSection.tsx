@@ -1,26 +1,26 @@
 const testimonials = [
   {
-    name: "Lucas Mendes",
+    name: "Alex Johnson",
     role: "Indie Hacker",
-    text: "Lancei meu SaaS em um fim de semana usando o VibeKit. O design system é absurdo — parece que custou R$10k.",
+    text: "I shipped my SaaS in a weekend. The design system is incredible — it looks like it cost a fortune.",
     avatar: "from-violet-500 to-fuchsia-500",
   },
   {
-    name: "Júlia Castro",
+    name: "Jamie Carter",
     role: "Product Designer",
-    text: "Os componentes têm uma vibe premium que eu não consigo replicar sozinha. Virei fã.",
+    text: "The components have a premium feel I can't replicate on my own. I'm a fan.",
     avatar: "from-pink-500 to-rose-500",
   },
   {
-    name: "Rafael Souza",
+    name: "Sam Rivera",
     role: "Full Stack Dev",
-    text: "Cada template já vem com auth, pagamento e dashboard. É tipo ter 10 projetos prontos por R$97.",
+    text: "Every template ships with auth, payments and dashboard. It's like having 10 projects ready to go.",
     avatar: "from-cyan-400 to-blue-500",
   },
   {
-    name: "Marina Alves",
+    name: "Morgan Lee",
     role: "Founder",
-    text: "Saí de uma ideia para um MVP em produção em 3 dias. Antes do VibeKit isso era impossível pra mim.",
+    text: "I went from idea to MVP in production in 3 days. Before this kit that was impossible for me.",
     avatar: "from-amber-400 to-orange-500",
   },
 ];
@@ -30,10 +30,10 @@ export const TestimonialsSection = () => {
     <section className="container relative py-24 md:py-32">
       <div className="mx-auto max-w-2xl text-center">
         <span className="inline-block rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary-glow">
-          Vibecoders aprovam
+          Loved by builders
         </span>
         <h2 className="mt-4 font-display text-4xl font-bold leading-tight md:text-5xl">
-          Resultado real, <span className="text-gradient-primary">vibe real.</span>
+          Real results, <span className="text-gradient-primary">real vibes.</span>
         </h2>
       </div>
 

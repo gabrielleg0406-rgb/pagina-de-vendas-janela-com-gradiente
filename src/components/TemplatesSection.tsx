@@ -4,37 +4,37 @@ const templates = [
   {
     name: "SaaS Launch",
     tag: "Landing",
-    desc: "Landing page de SaaS com hero animada, pricing, depoimentos e blog.",
+    desc: "SaaS landing page with animated hero, pricing, testimonials and blog.",
     gradient: "from-violet-500 via-purple-500 to-fuchsia-500",
   },
   {
     name: "AI Chat Studio",
     tag: "App",
-    desc: "Dashboard de chat com IA, histórico, threads e integração com OpenAI.",
+    desc: "AI chat dashboard with history, threads and OpenAI integration.",
     gradient: "from-cyan-400 via-blue-500 to-indigo-600",
   },
   {
     name: "Creator Portfolio",
     tag: "Portfolio",
-    desc: "Portfólio premium para devs e designers, com case studies e dark mode.",
+    desc: "Premium portfolio for devs and designers, with case studies and dark mode.",
     gradient: "from-amber-400 via-orange-500 to-rose-500",
   },
   {
-    name: "Vibe Commerce",
+    name: "Modern Commerce",
     tag: "E-commerce",
-    desc: "Loja moderna com carrinho, checkout Stripe e admin panel.",
+    desc: "Modern store with cart, Stripe checkout and admin panel.",
     gradient: "from-emerald-400 via-teal-500 to-cyan-600",
   },
   {
     name: "Community Hub",
     tag: "Social",
-    desc: "Plataforma de comunidade com posts, perfis, likes e notificações.",
+    desc: "Community platform with posts, profiles, likes and notifications.",
     gradient: "from-pink-500 via-rose-500 to-red-500",
   },
   {
     name: "Analytics Pro",
     tag: "Dashboard",
-    desc: "Dashboard completo de métricas com gráficos, filtros e exportação.",
+    desc: "Complete metrics dashboard with charts, filters and exports.",
     gradient: "from-violet-500 via-indigo-500 to-blue-600",
   },
 ];
@@ -44,13 +44,13 @@ export const TemplatesSection = () => {
     <section id="templates" className="container relative py-24 md:py-32">
       <div className="mx-auto max-w-2xl text-center">
         <span className="inline-block rounded-full border border-primary/30 bg-primary/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-primary-glow">
-          12+ templates inclusos
+          12+ templates included
         </span>
         <h2 className="mt-4 font-display text-4xl font-bold leading-tight md:text-5xl">
-          Tenha sua própria <span className="text-gradient-primary">Lovable</span> em casa.
+          Ship beautiful <span className="text-gradient-primary">products</span> faster.
         </h2>
         <p className="mt-4 text-lg text-muted-foreground">
-          Templates premium prontos para clonar, customizar e deployar. Cada um vale mais que o kit inteiro.
+          Premium templates ready to clone, customize and deploy. Each one is worth more than the entire kit.
         </p>
       </div>
 

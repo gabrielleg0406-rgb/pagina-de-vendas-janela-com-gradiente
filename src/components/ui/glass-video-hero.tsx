@@ -45,7 +45,7 @@ export const HeroSection = () => {
             <span className="inline-flex items-center gap-1 rounded-full bg-gradient-primary px-2.5 py-0.5 text-xs font-bold text-primary-foreground">
               <Sparkles className="h-3 w-3" /> NEW
             </span>
-            <span className="text-foreground/90">Built for Vibecoders ⚡</span>
+            <span className="text-foreground/90">Built for modern builders ⚡</span>
           </div>
 
           {/* Headline */}
@@ -53,12 +53,12 @@ export const HeroSection = () => {
             className="font-display max-w-5xl text-5xl font-bold leading-[1.05] tracking-tight md:text-7xl lg:text-[88px] animate-fade-up"
             style={{ animationDelay: "0.1s" }}
           >
-            <span className="text-gradient">Pare de começar</span>
+            <span className="text-gradient">Stop starting</span>
             <br />
-            do zero —{" "}
-            <span className="text-gradient-primary">lance em horas</span>,
+            from scratch —{" "}
+            <span className="text-gradient-primary">ship in hours</span>,
             <br />
-            não em semanas.
+            not weeks.
           </h1>
 
           {/* Subtext */}
@@ -66,8 +66,8 @@ export const HeroSection = () => {
             className="mt-8 max-w-2xl text-lg text-muted-foreground md:text-xl animate-fade-up"
             style={{ animationDelay: "0.2s" }}
           >
-            <span className="font-semibold text-foreground">VibeKit</span> é a stack pronta de templates premium para
-            você lançar produtos completos com a mesma vibe das melhores apps do mercado.
+            A complete stack of premium templates to launch full products with the same
+            polish as the best apps on the market.
           </p>
 
           {/* CTAs */}
@@ -77,11 +77,11 @@ export const HeroSection = () => {
           >
             <Button variant="hero" size="xl" asChild>
               <a href="#pricing">
-                Garantir por R$97 <ArrowRight className="h-5 w-5" />
+                Get started for $97 <ArrowRight className="h-5 w-5" />
               </a>
             </Button>
             <Button variant="glass" size="xl" asChild>
-              <a href="#templates">Ver templates</a>
+              <a href="#templates">Browse templates</a>
             </Button>
           </div>
 
@@ -100,12 +100,12 @@ export const HeroSection = () => {
                   />
                 ))}
               </div>
-              <span>+1.200 vibecoders</span>
+              <span>1,200+ builders</span>
             </div>
             <div className="hidden h-4 w-px bg-border sm:block" />
             <div className="flex items-center gap-1.5">
               <span className="text-yellow-400">★★★★★</span>
-              <span>4.9/5 de satisfação</span>
+              <span>4.9/5 satisfaction</span>
             </div>
           </div>
         </div>

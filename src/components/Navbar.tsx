@@ -8,13 +8,13 @@ export const Navbar = () => {
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-primary shadow-glow">
             <Code2 className="h-4 w-4 text-primary-foreground" />
           </div>
-          VibeKit
+          Acme
         </a>
 
         <nav className="hidden items-center gap-8 text-sm text-muted-foreground md:flex">
-          <a href="#templates" className="hover:text-foreground transition-colors">Templates</a>
+          <a href="#templates" className="hover:text-foreground transition-colors">Products</a>
           <a href="#features" className="hover:text-foreground transition-colors">Features</a>
-          <a href="#pricing" className="hover:text-foreground transition-colors">Preço</a>
+          <a href="#pricing" className="hover:text-foreground transition-colors">Pricing</a>
           <a href="#faq" className="hover:text-foreground transition-colors">FAQ</a>
         </nav>
 
@@ -35,7 +35,7 @@ export const Navbar = () => {
             href="#pricing"
             className="rounded-lg bg-gradient-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-glow hover:scale-[1.03] transition-transform"
           >
-            Comprar
+            Get started
           </a>
         </div>
       </div>
